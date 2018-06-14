@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+$shadow: 0 4px 8px 0 rgba(0,
+0,
+0,
+0.2),
+0 6px 20px 0 rgba(0,
+0,
+0,
+0.19);
+$white: #fff;
+$white_bgc: #fcfaf2;
+$black: #333;
+$yellow: #fad689;
+$blue: #3a8fb7;
+.app {
+  background-color: $white_bgc;
+  min-height: 100vh;
+  font-family: "Roboto Regular";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 1.1em;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Roboto bold";
+  margin-bottom: 20px;
+  .link-wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+    margin: 0 20px;
+    &:hover {
+      color: $yellow;
+    }
+  }
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  width: 80%;
+  background-color: $white;
+  box-shadow: $shadow;
+  .img-wrap {
+    width: 30%;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    background-image: url(photo.png);
+    background-size: cover;
+    background-position: cneter;
+  }
+  .info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    color: $black;
+    .phone {
+      display: flex;
+      div {
+        margin: 5px;
+      }
+    }
+    .interest {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      div {
+        margin: 5px;
+      }
+      ::before {
+        content: "•";
+        color: $blue;
+        padding-right: 8px;
+      }
+    }
+    >div {
+      margin: 10px;
+    }
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: $white;
+  box-shadow: $shadow;
+  .item {
+    margin: 10px;
+    padding: 5px;
+    .time {
+      font-style: italic;
+      color: $blue;
+      padding-left: 20px;
+      opacity: 0.5;
+    }
+    .sub_title::before {
+      content: "•";
+      color: $blue;
+      padding-right: 8px;
+    }
+  }
+}
+
+.title {
+  font-family: "Roboto Medium";
+  font-size: 1.5em;
+  display: block;
+  margin: 5px;
+}
+
+.sub_title {
+  font-family: "Roboto Bold";
+  font-size: 1.2em;
+  display: block;
+}
+
+@media all and (max-width: 1000px) {
+  .card {
+    align-items: center;
+    flex-direction: column;
+    .img-wrap {
+      width: 100%;
+      background-position: center 25%;
+    }
+  }
+}
+
+@media all and (max-width: 700px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    .link-wrap {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .card {
+    width: 100%;
+    .phone {
+      flex-direction: column;
+    }
+    .img-wrap {
+      max-width: 200px;
+      max-height: 200px;
+      border-radius: 50%;
+    }
+  }
+}
