@@ -129,6 +129,7 @@ header {
   font-size: 1.5em;
   display: block;
   margin: 5px;
+  color: $black;
 }
 
 .sub_title {
@@ -145,6 +146,9 @@ header {
       width: 100%;
       background-position: center 25%;
     }
+  }
+  .list {
+    width: 80%;
   }
 }
 
@@ -168,5 +172,8 @@ header {
       max-height: 200px;
       border-radius: 50%;
     }
+  }
+  .list {
+    width: 100%;
   }
 }

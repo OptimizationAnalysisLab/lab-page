@@ -97,7 +97,8 @@ header {
   font-family: "Roboto Medium";
   font-size: 1.5em;
   display: block;
-  margin: 5px; }
+  margin: 5px;
+  color: #333; }
 
 .sub_title {
   font-family: "Roboto Bold";
@@ -110,7 +111,9 @@ header {
     flex-direction: column; }
     .card .img-wrap {
       width: 100%;
-      background-position: center 25%; } }
+      background-position: center 25%; }
+  .list {
+    width: 80%; } }
 
 @media all and (max-width: 700px) {
   header {
@@ -127,4 +130,6 @@ header {
     .card .img-wrap {
       max-width: 200px;
       max-height: 200px;
-      border-radius: 50%; } }
+      border-radius: 50%; }
+  .list {
+    width: 100%; } }
