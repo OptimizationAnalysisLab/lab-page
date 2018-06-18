@@ -92,7 +92,8 @@ header {
       padding-left: 20px;
       opacity: 0.7; }
     .list .item .authors {
-      display: flex; }
+      display: flex;
+      flex-wrap: wrap; }
       .list .item .authors .author {
         margin-left: 10px; }
     .list .item .sub_title::before {
@@ -106,8 +107,7 @@ header {
   display: block;
   margin: 5px;
   color: #333;
-  font-weight: bold;
-  text-decoration: underline; }
+  font-weight: bold; }
 
 .title_list {
   color: #ed784a;
