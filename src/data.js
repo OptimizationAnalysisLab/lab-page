@@ -7,8 +7,6 @@ export const personalInfo = {
   TEL: "+886-2-7734-3548",
   FAX: "+886-2-23515092",
   Email: "iweilai@ntnu.edu.tw",
-  Introduction:
-    "I-Wei Lai received his Ph.D. in electrical engineering from the Graduate Institute of Electronics Engineering (GIEE) at National Taiwan University in 2011, and he is now an Assistant Professor in National Taiwan Normal University, Taiwan. He was a Research assistant with the Institute of Integrated Signal Processing Systems, RWTH Aachen University, Germany. He was the recipient of the NTU-GIEE best thesis award in 2011 for his Ph.D. thesis and is a member of Phi Tau Phi Scholastic Honor Society. His research interests include baseband signal processing, optimization, MIMO communication, and ad hoc cognitive radio network. He was recognized as an Exemplar Reviewer of IEEE Transactions on Communications, 2014.",
   Research_Interest: [
     "Baseband communication theory and architecture design",
     "Wireless network",
@@ -17,42 +15,133 @@ export const personalInfo = {
   ]
 };
 
+export const introduction =
+  "I-Wei Lai received his Ph.D. in electrical engineering from the Graduate Institute of Electronics Engineering (GIEE) at National Taiwan University in 2011, and he is now an Assistant Professor in National Taiwan Normal University, Taiwan. He was a Research assistant with the Institute of Integrated Signal Processing Systems, RWTH Aachen University, Germany. He was the recipient of the NTU-GIEE best thesis award in 2011 for his Ph.D. thesis and is a member of Phi Tau Phi Scholastic Honor Society. His research interests include baseband signal processing, optimization, MIMO communication, and ad hoc cognitive radio network. He was recognized as an Exemplar Reviewer of IEEE Transactions on Communications, 2014.";
+
+export const education = [
+  {
+    title:
+      "Graduate Institute of Electronics Engineering, National Taiwan University (NTU), Taiwan",
+    time: "09/05-01/11",
+    detail: [
+      "Ph.D. in Electrical Engineering, 2011.",
+      "Thesis: Design of computationally-efficient flexible MIMO receivers with just acceptable error rate (best thesis award, GIEE)",
+      "Advisor: Prof. Heinrich Meyr (IEEE Life Fellow, RWTH Aachen University), Prof. Gerd Ascheid (RWTH Aachen University), Prof. Tzi-Dar Chiueh (IEEE Fellow, NTU)"
+    ]
+  },
+  {
+    title: "Graduate Institute of Electronics Engineering (GIEE), NTU",
+    info: "Direct entry of Ph.D. program",
+    time: "09/04-06/05"
+  },
+  {
+    title: "Department of Electrical Engineering, NTU",
+    info: "B.S in Electrical Engineering, 2004.",
+    time: "09/00-06/04"
+  }
+];
+
+export const awards = [
+  {
+    title: "Pineapple Science Award, Math (菠蘿科學獎數學獎)",
+    time: "2016"
+  },
+  {
+    title: "Exemplary Reviewer, IEEE Trans. on Communications",
+    time: "2014"
+  },
+  {
+    title: "MOST/Postdoc Academic Publication Award",
+    time: "2013"
+  },
+  {
+    title:
+      "Best Ph.D. Thesis Award of Graduate Institute of Electronics Engineering, National Taiwan University",
+    time: "2011"
+  },
+  {
+    title:
+      "The member of the Phi Tau Phi Scholastic Honor Society of the Republic of China",
+    time: "2011"
+  },
+  {
+    title:
+      "NSC-DAAD (National Science Council-Deutscher Akademischer Austausch Dienst) Sandwich Scholarship",
+    time: "2006"
+  },
+  {
+    title:
+      "Excellent Presentation Award, International PhD Workshop on SOC, 2006 Taipei, Taiwan"
+  },
+  {
+    title:
+      "First Prize of the 2005 contest on University/College IC Contest of FPGA Altera"
+  }
+];
+
+export const projects = [
+  {
+    title: "青少年跨領域數學影音與寫作競賽",
+    info: "主持人：賴以威, 計畫單位：科技部(原國科會)",
+    time: "2017/08/01-2020/07/31"
+  },
+  {
+    title: "空間排列調變：一項新的多輸入多輸出傳輸技術",
+    info: "主持人：賴以威, 計畫單位：科技部(原國科會)",
+    time: "2017/08/01-2018/07/31"
+  },
+  {
+    title: "科普活動：美數課-國小學童數學科普活動",
+    info: "主持人：賴以威, 計畫單位：科技部(原國科會)",
+    time: "2017/06/01-2018/05/31"
+  },
+  {
+    title: "行動寬頻尖端技術課程推廣計畫-多輸入多輸出通訊傳收機設計與實作",
+    info: "主持人：賴以威, 計畫單位：教育部",
+    time: "2016/12/01-2018/02/28"
+  },
+  {
+    title: "應用於多輸入多輸出系統之新型時空排列碼傳輸與接收端設計",
+    info: "主持人：賴以威, 計畫單位：科技部(原國科會)",
+    time: "2016/08/01-2017/10/31"
+  },
+  {
+    title: "科普活動：數據新聞的相關人才培育與內容製作",
+    info: "主持人：賴以威, 計畫單位：科技部(原國科會)",
+    time: "2016/06/01-2017/08/31"
+  }
+];
+
 export const courses = [
   {
     title: "Engineering Mathematics I",
     title_ch: "工程數學 I",
-    time: "2018",
-    season: "Spring"
+    time: "2018 - Spring"
   },
   {
     title: "Introduction to VLSI Design",
     title_ch: "超大型積體電路設計導論",
-    time: "2018",
-    season: "Spring"
+    time: "2018 - Spring"
   },
   {
     title: "Engineering Mathematics II",
     title_ch: "工程數學 II",
-    time: "2017",
-    season: "Fall"
+    time: "2017 - Fall"
   },
   {
     title: " MIMO Communication Transceiver Design and Implementation",
     title_ch: "多輸入多輸出通訊傳收機設計與實作",
-    time: "2017",
-    season: "Fall"
+    time: "2017 - Fall"
   },
   {
     title: "Engineering Mathematics I",
     title_ch: "工程數學 I",
-    time: "2017",
-    season: "Spring"
+    time: "2017 - Spring"
   },
   {
     title: "Introduction to VLSI Design",
     title_ch: "超大型積體電路設計導論",
-    time: "2017",
-    season: "Spring"
+    time: "2017 - Spring"
   }
 ];
 
@@ -66,17 +155,19 @@ export const publication = {
         "2nd Edition, Wiley-IEEE Press, 2012, June. (簡體中文版《MIMO-OFDM无线通信基带接收机设计》, 2014, June)"
     }
   ],
-  Ph_D_Thesis: {
-    authors: ["I. –W. Lai"],
-    title:
-      "Design of computationally-efficient flexible MIMO receivers with just acceptable error rate",
-    advisor: [
-      "Prof. Heinrich Meyr, IEEE Life Fellow, RWTH Aachen University",
-      "Prof. Gerd Ascheid, RWTH Aachen University",
-      "Prof. Tzi-Dar Chiueh, IEEE Fellow, NTU"
-    ],
-    info: "best thesis award, GIEE"
-  },
+  Ph_D_Thesis: [
+    {
+      authors: ["I. –W. Lai"],
+      title:
+        "Design of computationally-efficient flexible MIMO receivers with just acceptable error rate",
+      advisor: [
+        "Prof. Heinrich Meyr, IEEE Life Fellow, RWTH Aachen University",
+        "Prof. Gerd Ascheid, RWTH Aachen University",
+        "Prof. Tzi-Dar Chiueh, IEEE Fellow, NTU"
+      ],
+      info: "best thesis award, GIEE"
+    }
+  ],
   Journal_Papers: [
     {
       authors: [
@@ -98,7 +189,7 @@ export const publication = {
         "IEEE Trans. Commun., vol. 64, no. 7, pp. 2860-2872 July 2016. (IF 1.992)"
     },
     {
-      authors: ["Y.-Y. Lan", "I.-W. Lai", "C.-H. Lee", "T.-D. Chiueh"],
+      authors: ["Y.-Y. Lan", "I. –W. Lai", "C.-H. Lee", "T.-D. Chiueh"],
       title:
         "Efficient active precoder identification for receivers with inter-cell interference in heterogeneous networks",
       info:
@@ -112,7 +203,7 @@ export const publication = {
         "IEEE Trans. Wireless Commun., vol. 14, no. 6, pp. 3309-3321, June 2015"
     },
     {
-      authors: ["I. –W. Lai, L. Zheng", "C. –H. Lee", "C. W. Tan"],
+      authors: ["I. –W. Lai", "L. Zheng", "C. –H. Lee", "C. W. Tan"],
       title:
         "Beamforming duality and algorithms for weighted sum rate maximization in cognitive radio networks",
       info:
@@ -183,7 +274,8 @@ export const publication = {
     },
     {
       authors: [
-        "S. Godtmann, I. -W. Lai",
+        "S. Godtmann",
+        "I. –W. Lai",
         "T. -D. Chiueh",
         "G. Ascheid",
         "H. Meyr"
@@ -330,14 +422,14 @@ export const publication = {
       info: " Proc. IEEE VTC-Spring, May 2011."
     },
     {
-      authors: ["I. -W. Lai", "G. Ascheid", "H. Meyr", "T. -D. Chiueh"],
+      authors: ["I. –W. Lai", "G. Ascheid", "H. Meyr", "T. -D. Chiueh"],
       title:
         "Asymptotic BER analysis for MIMO-BICM with MMSE detection and Estimation",
       info: "Proc. IEEE ICC, June 2011."
     },
     {
       authors: ["D. Zhang", "I. –W. Lai", "K. Nikitopoulos", "G. Ascheid"],
-      titel:
+      title:
         "Informed message update for iterative MIMO demapping and turbo decoding",
       info: "Proc. ISITA, Oct. 2010."
     },
@@ -413,7 +505,7 @@ export const publication = {
         "Proc. IEEE International Symposium on Circuits and Systems (ISCAS), May 2009."
     },
     {
-      authors: ["I. -W. Lai", "G. Ascheid", "H. Meyr", "T. -D. Chiueh"],
+      authors: ["I. –W. Lai", "G. Ascheid", "H. Meyr", "T. -D. Chiueh"],
       title:
         "Low-complexity channel-adaptive MIMO detection with just-acceptable error rate",
       info: " Proc. IEEE VTC-Spring, Apr. 2009"
@@ -426,7 +518,7 @@ export const publication = {
     },
     {
       authors: [
-        "I. -W. Lai",
+        "I. –W. Lai",
         "S. Godtmann",
         "T. -D. Chiueh",
         "G. Ascheid",
@@ -439,7 +531,7 @@ export const publication = {
     {
       authors: [
         "S. Godtmann",
-        "I. -W. Lai",
+        "I. –W. Lai",
         "T. -D. Chiueh",
         "G. Ascheid",
         "H. Meyr"
@@ -450,7 +542,7 @@ export const publication = {
         "Proc. Forty-First Asilomar Conference on Signals, Systems and Computers (ACSSC), Nov. 2007."
     },
     {
-      authors: ["I. -W. Lai", "T.-D. Chiueh"],
+      authors: ["I. –W. Lai", "T.-D. Chiueh"],
       title:
         "One-dimensional interpolation based channel estimation for mobile DVB-H reception",
       info:

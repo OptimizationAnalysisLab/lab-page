@@ -69,7 +69,7 @@ header {
         margin: 5px; }
       .card .info .interest ::before {
         content: "•";
-        color: #3a8fb7;
+        color: #005caf;
         padding-right: 8px; }
     .card .info > div {
       margin: 10px; }
@@ -77,28 +77,41 @@ header {
 .list {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 80%;
+  margin-bottom: 30px;
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .list .item {
     margin: 10px;
     padding: 5px; }
-    .list .item .time {
+    .list .item .time,
+    .list .item .authors,
+    .list .item .info {
       font-style: italic;
-      color: #3a8fb7;
+      color: #005caf;
       padding-left: 20px;
-      opacity: 0.5; }
+      opacity: 0.7; }
+    .list .item .authors {
+      display: flex; }
+      .list .item .authors .author {
+        margin-left: 10px; }
     .list .item .sub_title::before {
       content: "•";
-      color: #3a8fb7;
+      color: #005caf;
       padding-right: 8px; }
 
 .title {
   font-family: "Roboto Medium";
-  font-size: 1.5em;
+  font-size: 2em;
   display: block;
   margin: 5px;
-  color: #333; }
+  color: #333;
+  font-weight: bold;
+  text-decoration: underline; }
+
+.title_list {
+  color: #ed784a;
+  font-size: 1.5em; }
 
 .sub_title {
   font-family: "Roboto Bold";
@@ -113,7 +126,7 @@ header {
       width: 100%;
       background-position: center 25%; }
   .list {
-    width: 80%; } }
+    width: 90%; } }
 
 @media all and (max-width: 700px) {
   header {
