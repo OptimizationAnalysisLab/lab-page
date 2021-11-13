@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Item from "./Item";
-import { introduction, education, awards, projects } from "../data";
+import { education, awards, projects } from "../data";
 
 export class About extends Component {
   render() {
