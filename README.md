@@ -1,3 +1,6 @@
+## 網址
+https://optimizationanalysislab.github.io/lab-page/
+
 ## 架構
 用 [Create React App](https://create-react-app.dev/) 產生一個網站，並透過 [gh-pages](https://github.com/tschaub/gh-pages) 放在 [GitHub Page](https://pages.github.com/) 上
 
@@ -18,6 +21,10 @@ cd lab-page
 ```
 
 ```bash
+git checkout main
+```
+
+```bash
 npm install
 ```
 
@@ -33,7 +40,14 @@ npm run start
 - 架構調整就改 `components` folder
 
 ## 部署
-確認修改好後，執行
+確認修改好後
+
+使用下面指令，就會把改動更新到網頁上
 ```bash
 npm run deploy
+```
+
+使用下面指令，會把目前程式碼更新到 Github repo 的 `main` branch 上
+```bash
+git push origin main
 ```
